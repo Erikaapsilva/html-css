@@ -1,0 +1,15 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis de cor (combina com sua paleta 👀) */
+:root {
+    --cor-fundo: #032059;
+    --cor-fundo-sec: #041840;
+    --cor-principal: #235FD9;
+    --cor-destaque: #071126;
+    --cor-texto: #054BA6;
+}
