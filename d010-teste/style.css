@@ -13,6 +13,109 @@
     --cor-destaque: #071126;
     --cor-texto: #054BA6;
 }
+
+body{
+    background-color: #041840;
+}
 main{
     background-color: white;
 }
+ 
+
+header{
+    background-color: var(--cor-fundo-sec);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav{
+    background-color: var(--cor-fundo);
+      text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
+    main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #041840;
+    color: white;
+    margin: 10px;
+
+}
+
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-indent: 8px;
+   padding: 10px;
+}
+
+main p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main img{
+    width: 100%;
+}
+
+div{
+ background-color: #041840;
+ padding: 30px;
+ margin: 0%;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.336);
+    background-color: var(--cor-fundo);
+
+}
+aside h3{
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 1;
+    color: white;
+}
+
+aside {
+    color: white;
+}
+
+footer{
+    background-color: #041840;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
