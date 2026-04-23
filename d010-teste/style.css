@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: #041840;
+    background-color: #000000;
 }
 main{
     background-color: white;
@@ -32,15 +32,23 @@ header{
 nav{
     background-color: var(--cor-fundo);
       text-align: center;
+      padding: 10px;
+
+}
+nav > a:hover{
+    background-color: #235FD9;
+    color: var(--cor5);
+    border-radius: 5px;
 
 }
 
 a{
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
 }
+
 
 main{
     min-width: 300px;
