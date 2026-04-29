@@ -15,7 +15,9 @@
 }
 
 body{
-    background-color: #000000;
+    background-image: url(imagens/andy-holmes-LUpDjlJv4_c-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center center;
 }
 main{
     background-color: white;
